@@ -1,0 +1,170 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- zomato logo in tab -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/7/75/Zomato_logo.png"
+    />
+    <!--FONT ASWESOME ICONS : You can place Font Awesome icons just about anywhere using the CSS Prefix fa and the icon's name. Font Awesome is designed to be used with inline elements (we like the <i> tag for brevity, but using a <span> is more semantically correct). icon If you change the font-size of the icon's container, the icon gets bigger. -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- poppins font by google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Zomato</title>
+  </head>
+  <body>
+    <section class="hero__section">
+      <header>
+        <nav class="navbar">
+          <a href="#">Get the App</a>
+          <div class="navbar__menu_container">
+            <a class="link" href="#">Investor Relations</a>
+            <a class="link" href="#">Add Resturant</a>
+            <a class="link" href="#">Login</a>
+            <a class="link" href="#">Sign Up</a>
+            <a href="#" class="user__icon"><i class="fa-solid fa-user"></i></a>
+          </div>
+        </nav>
+      </header>
+      <div class="hero__section_container">
+        <img
+          class="hero__section_logo"
+          src="./images/heroSectionLogo.png"
+          alt="zomato"
+        />
+        <h1 class="hero__section_title">
+          Discover the best food and drinks in Navi Mumbai
+        </h1>
+        <div class="hero__section_input_container">
+          <input
+            class="input__container_location"
+            type="text"
+            placeholder="Navi Mumbai"
+          />
+          <input
+            class="input__container_search"
+            placeholder="Search for a resturant, cuisine or dish"
+            type="text"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="container__we_offer">
+      <div class="we__offer_card">
+        <img src="./images/item1.png" alt="Item 1" />
+        <div class="we__offer_content">
+          <h2>Order Online</h2>
+          <p>Stay home and order to your doorsteps with fastest dilivary.</p>
+        </div>
+      </div>
+      <div class="we__offer_card">
+        <img src="./images/item2.png" alt="Item 2" />
+        <div class="we__offer_content">
+          <h2>Dine In</h2>
+          <p>Visit the nearest resturant to avail our best offers.</p>
+        </div>
+      </div>
+      <div class="we__offer_card">
+        <img src="./images/item3.png" alt="Item 3" />
+        <div class="we__offer_content">
+          <h2>Let the Party begin</h2>
+          <p>Anytime, anywhere, always on time just zomato.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container collection">
+      <h1>collections</h1>
+      <div class="sub__heading_collection">
+        <span>
+          Explore curated lists of top resturants, cafes, pubs in Navi Mumbai.
+        </span>
+        <span> All collections in Navi Mumbai </span>
+      </div>
+      <div class="collection__card_container">
+        <div class="card card1">
+          <div class="overlay"></div>
+          <div class="content">
+            <h4>Live Cricket Screening</h4>
+            <span>60 Places</span>
+          </div>
+        </div>
+        <div class="card card2">
+          <div class="overlay"></div>
+          <div class="content">
+            <h4>Live Cricket Screening</h4>
+            <span>90 Places</span>
+          </div>
+        </div>
+        <div class="card card3">
+          <div class="overlay"></div>
+          <div class="content">
+            <h4>Live Cricket Screening</h4>
+            <span>80 Places</span>
+          </div>
+        </div>
+        <div class="card card4">
+          <div class="overlay"></div>
+          <div class="content">
+            <h4>Live Cricket Screening</h4>
+            <span>40 Places</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container get__the_app">
+      <div class="semiContainer">
+        <div class="left">
+          <img src="images\mobileBanner.png" alt="mobile_app" />
+        </div>
+        <div class="right">
+          <h1>Get the Zomato App</h1>
+          <p>
+            We will send you a link, open it on your device to download the app.
+          </p>
+
+          <div class="radio__button_container">
+            <div>
+              <input type="radio" name="download_app" id="email" />
+              <label for="email" style="font-size: 14px">Email</label>
+            </div>
+            <div>
+              <input type="radio" name="download_app" id="phone" />
+              <label for="phone" style="font-size: 14px">Phone</label>
+            </div>
+          </div>
+          <div class="input_container">
+            <input type="text" placeholder="Email" />
+            <button>Share App Link</button>
+          </div>
+          <div class="download__app_container">
+            <div>
+              <h5>Download App From</h5>
+            </div>
+            <div>
+              <img src="images/appleStore.png" alt="appleStore" />
+              <img src="images/playStore.png" alt="playStore" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
